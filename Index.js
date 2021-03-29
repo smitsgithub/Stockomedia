@@ -6,8 +6,8 @@
 //    }
 //});
 
-function hello() {
-    document.getElementById("financial_markets").innerhtml = 
+function financial_markets() {
+    document.getElementById("financial_markets").style.display = block;
 }
 
 
