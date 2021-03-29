@@ -1,0 +1,111 @@
+body{
+    margin: 10px;
+    padding: 10px;   
+}
+
+.head{
+  font-size: 75px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+a{
+  color: rgb(48, 47, 47);
+  text-decoration: none;
+}
+
+.main-container{
+  display: flex;
+  
+}
+
+.container_1{
+  float: left;
+  width: 400px;
+}
+
+nav{
+    display: block;
+    background-color:rgb(129, 127, 127);
+    text-align: center;
+}
+
+ul{
+ font-size: 20px;
+ font-family: 'Times New Roman', Times, serif;
+ list-style-type: none;
+ margin: 0px;
+ padding: 0px;
+ border: 1px solid #555;
+ width: fit-content;
+ 
+}
+
+li{
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+    width: 300px;
+}
+
+li:hover{
+    background-color: rgb(116, 141, 155);
+    text-decoration: underline;
+    text-align: center;
+}
+
+.dropdown {
+  position: relative;
+  display: block;
+}
+
+.dropdown-content {
+  display:none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+h1{
+   font-size: 30px;
+    text-align: left;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.part2{
+  padding-top: 100px;
+  padding-left: 50px;
+}
+#financial_markets{
+  display: none;
+}
+/*
+@media (min-width: 576px) {
+    .container {
+      max-width: 540px;
+    }
+  }
+  @media (min-width: 768px) {
+    .container {
+      max-width: 720px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      max-width: 960px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1140px;
+    }
+  }
+*/
